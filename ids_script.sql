@@ -66,7 +66,7 @@ SELECT
     indicator_name,
     ROUND(SUM(amount) / 1000000000, 2) AS 'Total in Billion',
     ROUND((SUM(amount) / 1000000000) / (SELECT SUM(amount) / 1000000000
-										FROM ids_data) * 100, 2) AS 'Percent of Total'
+					FROM ids_data) * 100, 2) AS 'Percent of Total'
 FROM ids_data
 GROUP BY 1
 ORDER BY 2 DESC
@@ -77,7 +77,7 @@ SELECT
     indicator_name,
     ROUND(SUM(amount) / 1000000000, 2) AS 'Total in Billion',
     ROUND((SUM(amount) / 1000000000) / (SELECT SUM(amount) / 1000000000
-										FROM ids_data
+					FROM ids_data
                                         WHERE country_name = 'China') * 100, 2) AS 'Percent of Total'
 FROM ids_data
 WHERE country_name = 'China'

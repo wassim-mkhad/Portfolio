@@ -22,7 +22,8 @@ LIMIT 10;
 SELECT 
     country_name,
     ROUND(SUM(amount) / 1000000000, 2) AS 'Total amount borrowed in Billions'
-FROM ids_data
+FROM 
+    ids_data
 GROUP BY 1
 ORDER BY 1
 LIMIT 10;
@@ -30,8 +31,9 @@ LIMIT 10;
 -- Highest borrower
 SELECT 
     country_name AS highest_borrower,
-	  ROUND(SUM(amount) / 1000000000, 2) AS 'Total amount borrowed in Billions'
-FROM ids_data
+    ROUND(SUM(amount) / 1000000000, 2) AS 'Total amount borrowed in Billions'
+FROM
+    ids_data
 GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 1;
@@ -40,7 +42,7 @@ LIMIT 1;
 SELECT 
     country_name AS lowest_borrower,
     ROUND(SUM(amount) / 1000000000, 2) AS 'Total amount borrowed in Billions'
-FROM
+FROM 
     ids_data
 GROUP BY 1
 ORDER BY 2
@@ -67,7 +69,8 @@ SELECT
     ROUND(SUM(amount) / 1000000000, 2) AS 'Total in Billion',
     ROUND((SUM(amount) / 1000000000) / (SELECT SUM(amount) / 1000000000
 					FROM ids_data) * 100, 2) AS 'Percent of Total'
-FROM ids_data
+FROM 
+    ids_data
 GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 10;
@@ -79,7 +82,8 @@ SELECT
     ROUND((SUM(amount) / 1000000000) / (SELECT SUM(amount) / 1000000000
 					FROM ids_data
                                         WHERE country_name = 'China') * 100, 2) AS 'Percent of Total'
-FROM ids_data
+FROM 
+    ids_data
 WHERE country_name = 'China'
 GROUP BY 1
 ORDER BY 2 DESC

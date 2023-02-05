@@ -8,7 +8,7 @@ Welcome to my data analytics portfolio repository! Here you will find a collecti
 
 An analysis of international debt data collected by The World Bank providing information about the amount of money that the World Bank has lent to countries across several categories from 1970 to 2018. This project was done using **SQL**
 
-**Project 1: Python: Data Cleaning and Transformation**
+**Project 2: Python: Data Cleaning and Transformation**
 
 Cleaning a dataset of over 2 million rows using various Python data cleaning techniques such as filling in missing values, standardizing categories, correcting string inconsistencies, limiting the data range, removing duplicates, creating columns, and sorting the data. 
 

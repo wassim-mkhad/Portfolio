@@ -10,7 +10,11 @@ An analysis of international debt data collected by The World Bank providing inf
 
 ## About Me
 
-I am a passionate junior data analyst with a strong background in **SQL, Tableau, Python,** and **Spreadsheets**. I have created relevant projects using these tools, and I am continually working to improve my skills. I am eager to apply my knowledge and experience in an entry-level Data Analyst role, where I can make a meaningful impact and continue to learn and grow in the field.
+I am a junior data analyst, I use data every day to build dashboards, provide insights and find business patterns using my skills such as SQL Tableau Python or Excel, I have done a variety of projects where I applied my skills to solve real-world business problems such as churn rate or examining sales, for example In a recent project, I conducted an analysis of sales trends and implemented inventory management strategies, utilizing inventory turnover and ABC classification methods.
+
+Right now I am Currently focusing on building more projects to further expand my knowledge and enhance my skills.
+
+I spend the last year developing my data skills by taking data courses such as Google data analysis certification where I learned the fundamentals of data and then I took some more advanced courses to improve my technical skills, as I progressed in my learning journey I was drawn to the data field and decided to pursue a full-time career in data analytics
 
 See my Tableau Dashboards [here](https://public.tableau.com/app/profile/wassimmkhad)
 

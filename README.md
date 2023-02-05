@@ -8,6 +8,10 @@ Welcome to my data analytics portfolio repository! Here you will find a collecti
 
 An analysis of international debt data collected by The World Bank providing information about the amount of money that the World Bank has lent to countries across several categories from 1970 to 2018. This project was done using **SQL**
 
+**Project 1: Python: Data Cleaning and Transformation**
+
+Cleaning a dataset of over 2 million rows using various Python data cleaning techniques such as filling in missing values, standardizing categories, correcting string inconsistencies, limiting the data range, removing duplicates, creating columns, and sorting the data. 
+
 ## About Me
 
 I am a junior data analyst, I use data every day to build dashboards, provide insights and find business patterns using my skills such as SQL Tableau Python or Excel, I have done a variety of projects where I applied my skills to solve real-world business problems such as churn rate or examining sales, for example In a recent project, I conducted an analysis of sales trends and implemented inventory management strategies, utilizing inventory turnover and ABC classification methods.
